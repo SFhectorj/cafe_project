@@ -4,7 +4,7 @@ from flask_behind_proxy import FlaskBehindProxy
 
 
 app = Flask(__name__)
-proxied = FlaskBehindProxy(app)  ## add this line
+proxied = FlaskBehindProxy(app)  #Flask
 app.config['SECRET_KEY'] = '7c3d31e61005a9cc01a79df320cb8038'
 
 @app.route("/")
